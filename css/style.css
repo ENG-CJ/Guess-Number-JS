@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4
+}
+.container{
+    background: #fff;
+    width: 600px;
+    border-radius: 20px;
+   box-shadow: 0 0 15px 5px rgba(75, 87, 75, 0.8);
+}
+.guess{
+    padding: 30px
+}
+.guess .guess-header{
+    text-align: center;
+}
+.guess .guess-header h2{
+    color: blueviolet;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 15px 0 0 0;
+}
+.guess .guess-header p{
+    color: #901;
+    font-weight: 700;
+    font-size: 19px;
+    text-transform: uppercase;
+    
+    
+}
+.hidden-number{
+    text-align: center;
+    padding: 20px;
+    
+}
+h1{
+    border: 2px solid blueviolet;
+    border-bottom: 1px;
+
+}
+
+.guess-input{
+    padding: 20px 0px 20px 0px;
+    margin: 0px 130px;
+}
+.guess-input input{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #678;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.result{
+    margin-left: 25%;
+    padding: 0px 0px 30px 0px
+}
+.result h4{
+    color: #901;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+.btn{
+    margin-left: 25%;
+}
+.btn button{
+    width: 130px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #364cba;
+    color: #fff;
+    font-family: verdana;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+}
+.btn button:hover{
+    background: :#7289fd;
+    opacity: 0.6;
+    
+}
+
